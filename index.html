@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Проект</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Мой сайт</h1>
+      <nav>
+        <a href="newpage.php" target="_blank">О нас</a>
+        <a href="#">Адрес</a>
+        <a href="#">Контакты</a>
+      </nav>
+    </header>
+    <h1>Что такое html?</h1>
+    <p>
+      <b>HTML (от английского HyperText Markup Language)</b> — это язык
+      гипертекстовой разметки текста. Он нужен, чтобы
+      <strong
+        >размещать на веб-странице элементы: текст, картинки, таблицы и
+        видео.</strong
+      >
+      Когда вы заходите на сайт, браузер подгружает HTML-файл с информацией о
+      структуре и контенте веб-страницы. HTML как бы выстраивает визуальный
+      фундамент сайта, но не «запускает» сайт самостоятельно. Он всего лишь
+      указывает, где располагаются элементы, какой у них будет базовый дизайн,
+      откуда брать стили для элементов и скрипты (обычно их пишут на
+      JavaScript).
+    </p>
+    <img
+      id="my-image"
+      src="https://248006.selcdn.ru/main/iblock/b16/b169c17dd02f900d8c8bd0e80885deca/f66c6f02d9245035299f95e996746d46.png"
+      alt="ошибка"
+    />
+    <h1>Из чего состоит HTML-код</h1>
+    <p>
+      <b
+        >HTML состоит из тегов — команд, которые указывают браузеру, как
+        отображать помещённый в них текст. Это и есть элементы веб-страницы. У
+        каждого тега есть имя, которое заключается в угловые скобки &lt; и
+        &gt;</b
+      >
+      <br />
+      <strong>
+        В HTML есть много тегов, но основные это:
+        <ol>
+          <li>&lt;html&gt;</li>
+          <li>&lt;head&gt;</li>
+          <li>&lt;title&gt;</li>
+          <li>&lt;body&gt;</li>
+          <li>&lt;p&gt;</li>
+        </ol>
+      </strong>
+    </p>
+    <form>
+      <label for="tags">Знаете ли вы эти теги?</label><br />
+      <input type="radio" id="yes" name="tags" value="yes" />
+      <label for="yes">Да</label><br />
+      <input type="radio" id="no" name="tags" value="no" />
+      <label for="no">Нет</label><br />
+    </form>
+    <form>
+      <label for="name">Введите ваше имя:</label>
+      <input type="text" id="name" name="name" />
+    </form>
+    <h1>Какой тег вам не понятный?</h1>
+    <form>
+      <label for="p-checkbox">&lt;p&gt;</label>
+      <input type="checkbox" id="p-checkbox" name="p-tag" />
+      <br />
+      <label for="html-checkbox">&lt;html&gt;</label>
+      <input type="checkbox" id="html-checkbox" name="html-tag" />
+      <br />
+      <label for="title-checkbox">&lt;title&gt;</label>
+      <input type="checkbox" id="title-checkbox" name="title-tag" />
+    </form>
+    <div class="container">
+      <p id="p">Продолжить</p>
+    </div>
+  </body>
+</html>

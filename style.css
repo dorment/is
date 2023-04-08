@@ -1,0 +1,81 @@
+body {
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: indianred;
+}
+h1 {
+  text-align: center;
+  color: black;
+}
+nav a {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: darkblue;
+}
+p:first-of-type {
+  color: darkslateblue;
+  font-size: 22px;
+  text-transform: none;
+}
+p:nth-of-type(2) {
+  font-size: 22px;
+  color: brown;
+}
+
+#my-image {
+  display: block;
+  margin: auto;
+  max-width: 50%;
+}
+
+ol {
+  counter-reset: my-counter;
+  margin-left: 2em;
+  padding-left: 0;
+}
+ol li {
+  font-size: 22px;
+  list-style-type: none;
+  counter-increment: my-counter;
+  margin-bottom: 1em;
+}
+ol li:before {
+  content: counter(my-counter) ".";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.5em;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #ff0000;
+}
+label {
+  color: blueviolet;
+  font-size: larger;
+}
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #555;
+}
+.container {
+  background-color: purple;
+  width: 200px; /* ширина контейнера */
+  height: 50px; /* высота контейнера */
+  border: 2px solid greenyellow; /* рамка */
+  display: flex; /* использовать flexbox */
+  justify-content: center; /* выравнивание по горизонтали */
+  align-items: center; /* выравнивание по вертикали */
+}
+#p {
+  color: #ff0000;
+}
